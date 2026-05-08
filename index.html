@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>可爱番茄钟</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- 窗口控制按钮 -->
+    <div class="window-controls">
+      <button class="control-btn minimize" id="minimizeBtn">−</button>
+      <button class="control-btn close" id="closeBtn">×</button>
+    </div>
+
+    <!-- 番茄钟主体 -->
+    <div class="tomato-container">
+      <div class="tomato">
+        <div class="tomato-leaf"></div>
+        <div class="timer-display" id="timerDisplay">25:00</div>
+      </div>
+    </div>
+
+    <!-- 模式显示 -->
+    <div class="mode-display" id="modeDisplay">🍅 工作时间</div>
+
+    <!-- 控制按钮 -->
+    <div class="controls">
+      <button class="btn btn-primary" id="startBtn">开始</button>
+      <button class="btn btn-secondary" id="pauseBtn" disabled>暂停</button>
+      <button class="btn btn-secondary" id="resetBtn">重置</button>
+    </div>
+
+    <!-- 设置区域 -->
+    <div class="settings">
+      <div class="setting-item">
+        <label>工作时长（分钟）</label>
+        <input type="number" id="workDuration" value="25" min="1" max="60">
+      </div>
+      <div class="setting-item">
+        <label>休息时长（分钟）</label>
+        <input type="number" id="breakDuration" value="5" min="1" max="30">
+      </div>
+    </div>
+
+    <!-- 底部导航 -->
+    <div class="bottom-nav">
+      <button class="nav-btn" id="statsBtn">📊 统计</button>
+      <button class="nav-btn" id="diaryBtn">📔 日记</button>
+    </div>
+
+    <!-- 统计信息 -->
+    <div class="stats-info">
+      <span>今日完成: <strong id="todayCount">0</strong> 个🍅</span>
+    </div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

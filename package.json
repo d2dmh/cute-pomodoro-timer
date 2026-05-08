@@ -1,0 +1,19 @@
+{
+  "name": "cute-pomodoro",
+  "version": "1.0.0",
+  "description": "一个可爱的番茄钟桌面应用",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev"
+  },
+  "keywords": ["pomodoro", "timer", "productivity"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.0"
+  }
+}

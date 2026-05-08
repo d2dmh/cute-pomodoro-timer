@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-app-region: drag;
+  overflow: hidden;
+}
+
+.container {
+  width: 320px;
+  height: 520px;
+  background: linear-gradient(135deg, #ffeef8 0%, #fff5f0 100%);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(255, 105, 135, 0.3);
+  padding: 15px;
+  position: relative;
+}
+
+/* 窗口控制按钮 */
+.window-controls {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 5px;
+  -webkit-app-region: no-drag;
+  z-index: 100;
+}
+
+.control-btn {
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 50%;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.minimize {
+  background: #ffd93d;
+  color: #fff;
+}
+
+.close {
+  background: #ff6b9d;
+  color: #fff;
+}
+
+.control-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 番茄钟主体 */
+.tomato-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.tomato {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(135deg, #ff6b9d 0%, #ff8fab 100%);
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 20px rgba(255, 107, 157, 0.4);
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.tomato-leaf {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 30px;
+  background: #4caf50;
+  border-radius: 0 50% 50% 50%;
+  transform-origin: bottom center;
+  animation: leafWave 2s ease-in-out infinite;
+}
+
+@keyframes leafWave {
+  0%, 100% { transform: translateX(-50%) rotate(-5deg); }
+  50% { transform: translateX(-50%) rotate(5deg); }
+}
+
+.timer-display {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* 模式显示 */
+.mode-display {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff6b9d;
+  margin-bottom: 15px;
+}
+
+/* 控制按钮 */
+.controls {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 15px;
+  -webkit-app-region: no-drag;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #ff6b9d 0%, #ff8fab 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(255, 107, 157, 0.3);
+}
+
+.btn-primary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(255, 107, 157, 0.4);
+}
+
+.btn-secondary {
+  background: #fff;
+  color: #ff6b9d;
+  border: 2px solid #ff6b9d;
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background: #ff6b9d;
+  color: white;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* 设置区域 */
+.settings {
+  background: white;
+  border-radius: 15px;
+  padding: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  -webkit-app-region: no-drag;
+}
+
+.setting-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.setting-item:last-child {
+  margin-bottom: 0;
+}
+
+.setting-item label {
+  font-size: 13px;
+  color: #666;
+}
+
+.setting-item input {
+  width: 60px;
+  padding: 4px 8px;
+  border: 2px solid #ffd3e0;
+  border-radius: 8px;
+  font-size: 14px;
+  text-align: center;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.setting-item input:focus {
+  border-color: #ff6b9d;
+}
+
+/* 底部导航 */
+.bottom-nav {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+  -webkit-app-region: no-drag;
+}
+
+.nav-btn {
+  flex: 1;
+  padding: 8px;
+  background: white;
+  border: 2px solid #ffd3e0;
+  border-radius: 12px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: #666;
+}
+
+.nav-btn:hover {
+  background: #fff5f0;
+  border-color: #ff6b9d;
+  color: #ff6b9d;
+  transform: translateY(-2px);
+}
+
+/* 统计信息 */
+.stats-info {
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+}
+
+.stats-info strong {
+  color: #ff6b9d;
+  font-size: 16px;
+}

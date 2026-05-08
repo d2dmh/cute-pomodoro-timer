@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>日记本</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #ffeef8 0%, #fff5f0 100%);
+      padding: 20px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .header h1 {
+      color: #ff6b9d;
+      font-size: 28px;
+    }
+
+    .input-area {
+      background: white;
+      border-radius: 15px;
+      padding: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(255, 107, 157, 0.2);
+    }
+
+    .input-area textarea {
+      width: 100%;
+      min-height: 80px;
+      border: 2px solid #ffd3e0;
+      border-radius: 10px;
+      padding: 10px;
+      font-size: 14px;
+      font-family: inherit;
+      resize: vertical;
+      outline: none;
+      transition: border-color 0.3s;
+    }
+
+    .input-area textarea:focus {
+      border-color: #ff6b9d;
+    }
+
+    .input-area-controls {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .btn {
+      padding: 8px 20px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.3s;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #ff6b9d 0%, #ff8fab 100%);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(255, 107, 157, 0.4);
+    }
+
+    .btn-danger {
+      background: #ff6b6b;
+      color: white;
+      padding: 4px 12px;
+      font-size: 12px;
+    }
+
+    .btn-danger:hover {
+      background: #ff5252;
+    }
+
+    .entries {
+      flex: 1;
+      overflow-y: auto;
+      padding-right: 5px;
+    }
+
+    .entries::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .entries::-webkit-scrollbar-track {
+      background: #fff5f0;
+      border-radius: 4px;
+    }
+
+    .entries::-webkit-scrollbar-thumb {
+      background: #ffd3e0;
+      border-radius: 4px;
+    }
+
+    .entry {
+      background: white;
+      border-radius: 12px;
+      padding: 15px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 8px rgba(255, 107, 157, 0.15);
+      position: relative;
+    }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+
+    .entry-date {
+      font-size: 12px;
+      color: #999;
+    }
+
+    .entry-content {
+      color: #333;
+      line-height: 1.6;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 40px;
+      color: #999;
+    }
+
+    .empty-state .emoji {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>📔 我的日记本</h1>
+  </div>
+
+  <div class="input-area">
+    <textarea id="diaryInput" placeholder="写下你的想法、备注或今天的心情..."></textarea>
+    <div class="input-area-controls">
+      <span style="font-size: 12px; color: #999;" id="charCount">0 字</span>
+      <button class="btn btn-primary" id="saveBtn">保存</button>
+    </div>
+  </div>
+
+  <div class="entries" id="entries"></div>
+
+  <script src="diary.js"></script>
+</body>
+</html>
