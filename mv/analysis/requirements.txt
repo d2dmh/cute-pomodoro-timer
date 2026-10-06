@@ -1,0 +1,6 @@
+numpy
+scipy
+soundfile
+librosa
+pyworld
+setuptools<81   # pyworld still imports pkg_resources

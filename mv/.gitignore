@@ -1,0 +1,6 @@
+out/
+app/node_modules/
+analysis/.venv/
+song/stems/
+audio/song.wav
+__pycache__/

@@ -1,0 +1,517 @@
+{
+ "lines": [
+  {
+   "text": "Twenty-five minutes on the clock",
+   "start": 8.002,
+   "end": 10.806,
+   "words": [
+    {
+     "w": "Twenty-five",
+     "start": 8.002,
+     "end": 8.73
+    },
+    {
+     "w": "minutes",
+     "start": 8.82,
+     "end": 9.209
+    },
+    {
+     "w": "on",
+     "start": 9.249,
+     "end": 9.468
+    },
+    {
+     "w": "the",
+     "start": 9.468,
+     "end": 9.708
+    },
+    {
+     "w": "clock",
+     "start": 9.708,
+     "end": 10.806
+    }
+   ]
+  },
+  {
+   "text": "Phone face down, let the noises stop",
+   "start": 11.993,
+   "end": 14.756,
+   "words": [
+    {
+     "w": "Phone",
+     "start": 11.993,
+     "end": 12.252
+    },
+    {
+     "w": "face",
+     "start": 12.252,
+     "end": 12.502
+    },
+    {
+     "w": "down,",
+     "start": 12.502,
+     "end": 12.901
+    },
+    {
+     "w": "let",
+     "start": 13.0,
+     "end": 13.17
+    },
+    {
+     "w": "the",
+     "start": 13.17,
+     "end": 13.459
+    },
+    {
+     "w": "noises",
+     "start": 13.459,
+     "end": 13.948
+    },
+    {
+     "w": "stop",
+     "start": 14.008,
+     "end": 14.756
+    }
+   ]
+  },
+  {
+   "text": "One small tomato on my desk",
+   "start": 15.994,
+   "end": 18.678,
+   "words": [
+    {
+     "w": "One",
+     "start": 15.994,
+     "end": 16.253
+    },
+    {
+     "w": "small",
+     "start": 16.253,
+     "end": 16.483
+    },
+    {
+     "w": "tomato",
+     "start": 16.502,
+     "end": 16.912
+    },
+    {
+     "w": "on",
+     "start": 17.231,
+     "end": 17.55
+    },
+    {
+     "w": "my",
+     "start": 17.55,
+     "end": 17.76
+    },
+    {
+     "w": "desk",
+     "start": 17.76,
+     "end": 18.678
+    }
+   ]
+  },
+  {
+   "text": "Do the next thing, forget the rest",
+   "start": 19.975,
+   "end": 22.858,
+   "words": [
+    {
+     "w": "Do",
+     "start": 19.975,
+     "end": 20.184
+    },
+    {
+     "w": "the",
+     "start": 20.244,
+     "end": 20.463
+    },
+    {
+     "w": "next",
+     "start": 20.463,
+     "end": 20.633
+    },
+    {
+     "w": "thing,",
+     "start": 20.633,
+     "end": 21.102
+    },
+    {
+     "w": "forget",
+     "start": 21.262,
+     "end": 21.681
+    },
+    {
+     "w": "the",
+     "start": 21.681,
+     "end": 21.96
+    },
+    {
+     "w": "rest",
+     "start": 21.96,
+     "end": 22.858
+    }
+   ]
+  },
+  {
+   "text": "Tick tock, little tomato",
+   "start": 23.985,
+   "end": 26.39,
+   "words": [
+    {
+     "w": "Tick",
+     "start": 23.985,
+     "end": 24.205
+    },
+    {
+     "w": "tock,",
+     "start": 24.255,
+     "end": 24.614
+    },
+    {
+     "w": "little",
+     "start": 24.664,
+     "end": 25.153
+    },
+    {
+     "w": "tomato",
+     "start": 25.253,
+     "end": 26.39
+    }
+   ]
+  },
+  {
+   "text": "Count me down and let me go",
+   "start": 27.996,
+   "end": 30.84,
+   "words": [
+    {
+     "w": "Count",
+     "start": 27.996,
+     "end": 28.166
+    },
+    {
+     "w": "me",
+     "start": 28.166,
+     "end": 28.495
+    },
+    {
+     "w": "down",
+     "start": 28.495,
+     "end": 28.894
+    },
+    {
+     "w": "and",
+     "start": 28.994,
+     "end": 29.194
+    },
+    {
+     "w": "let",
+     "start": 29.194,
+     "end": 29.423
+    },
+    {
+     "w": "me",
+     "start": 29.423,
+     "end": 29.752
+    },
+    {
+     "w": "go",
+     "start": 29.752,
+     "end": 30.84
+    }
+   ]
+  },
+  {
+   "text": "Work, then rest, then work some more",
+   "start": 31.977,
+   "end": 34.99,
+   "words": [
+    {
+     "w": "Work,",
+     "start": 31.977,
+     "end": 32.406
+    },
+    {
+     "w": "then",
+     "start": 32.406,
+     "end": 32.875
+    },
+    {
+     "w": "rest,",
+     "start": 32.875,
+     "end": 33.254
+    },
+    {
+     "w": "then",
+     "start": 33.254,
+     "end": 33.474
+    },
+    {
+     "w": "work",
+     "start": 33.474,
+     "end": 33.743
+    },
+    {
+     "w": "some",
+     "start": 33.743,
+     "end": 33.943
+    },
+    {
+     "w": "more",
+     "start": 34.332,
+     "end": 34.99
+    }
+   ]
+  },
+  {
+   "text": "That’s what the timer’s for",
+   "start": 35.998,
+   "end": 38.752,
+   "words": [
+    {
+     "w": "That’s",
+     "start": 35.998,
+     "end": 36.248
+    },
+    {
+     "w": "what",
+     "start": 36.248,
+     "end": 36.507
+    },
+    {
+     "w": "the",
+     "start": 36.507,
+     "end": 36.796
+    },
+    {
+     "w": "timer’s",
+     "start": 36.796,
+     "end": 37.205
+    },
+    {
+     "w": "for",
+     "start": 37.265,
+     "end": 38.752
+    }
+   ]
+  },
+  {
+   "text": "Ring ring, take a break",
+   "start": 39.999,
+   "end": 42.603,
+   "words": [
+    {
+     "w": "Ring",
+     "start": 39.999,
+     "end": 40.478
+    },
+    {
+     "w": "ring,",
+     "start": 40.508,
+     "end": 41.007
+    },
+    {
+     "w": "take",
+     "start": 41.007,
+     "end": 41.176
+    },
+    {
+     "w": "a",
+     "start": 41.176,
+     "end": 41.466
+    },
+    {
+     "w": "break",
+     "start": 41.506,
+     "end": 42.603
+    }
+   ]
+  },
+  {
+   "text": "Stretch your arms, there’s tea to make",
+   "start": 44.0,
+   "end": 46.664,
+   "words": [
+    {
+     "w": "Stretch",
+     "start": 44.0,
+     "end": 44.379
+    },
+    {
+     "w": "your",
+     "start": 44.499,
+     "end": 44.708
+    },
+    {
+     "w": "arms,",
+     "start": 44.748,
+     "end": 45.028
+    },
+    {
+     "w": "there’s",
+     "start": 45.107,
+     "end": 45.427
+    },
+    {
+     "w": "tea",
+     "start": 45.427,
+     "end": 45.716
+    },
+    {
+     "w": "to",
+     "start": 45.716,
+     "end": 46.205
+    },
+    {
+     "w": "make",
+     "start": 46.205,
+     "end": 46.664
+    }
+   ]
+  },
+  {
+   "text": "Tick tock, little tomato",
+   "start": 47.991,
+   "end": 50.386,
+   "words": [
+    {
+     "w": "Tick",
+     "start": 47.991,
+     "end": 48.21
+    },
+    {
+     "w": "tock,",
+     "start": 48.26,
+     "end": 48.62
+    },
+    {
+     "w": "little",
+     "start": 48.669,
+     "end": 49.158
+    },
+    {
+     "w": "tomato",
+     "start": 49.248,
+     "end": 50.386
+    }
+   ]
+  },
+  {
+   "text": "Count me down and let me go",
+   "start": 52.002,
+   "end": 54.845,
+   "words": [
+    {
+     "w": "Count",
+     "start": 52.002,
+     "end": 52.211
+    },
+    {
+     "w": "me",
+     "start": 52.301,
+     "end": 52.491
+    },
+    {
+     "w": "down",
+     "start": 52.491,
+     "end": 52.89
+    },
+    {
+     "w": "and",
+     "start": 53.0,
+     "end": 53.199
+    },
+    {
+     "w": "let",
+     "start": 53.199,
+     "end": 53.419
+    },
+    {
+     "w": "me",
+     "start": 53.419,
+     "end": 53.748
+    },
+    {
+     "w": "go",
+     "start": 53.748,
+     "end": 54.845
+    }
+   ]
+  },
+  {
+   "text": "Work, then rest, then work some more",
+   "start": 55.983,
+   "end": 58.986,
+   "words": [
+    {
+     "w": "Work,",
+     "start": 55.983,
+     "end": 56.412
+    },
+    {
+     "w": "then",
+     "start": 56.412,
+     "end": 56.871
+    },
+    {
+     "w": "rest,",
+     "start": 56.871,
+     "end": 57.26
+    },
+    {
+     "w": "then",
+     "start": 57.26,
+     "end": 57.469
+    },
+    {
+     "w": "work",
+     "start": 57.469,
+     "end": 57.749
+    },
+    {
+     "w": "some",
+     "start": 57.749,
+     "end": 57.948
+    },
+    {
+     "w": "more",
+     "start": 58.327,
+     "end": 58.986
+    }
+   ]
+  },
+  {
+   "text": "That’s what the timer’s for",
+   "start": 59.994,
+   "end": 62.747,
+   "words": [
+    {
+     "w": "That’s",
+     "start": 59.994,
+     "end": 60.283
+    },
+    {
+     "w": "what",
+     "start": 60.283,
+     "end": 60.512
+    },
+    {
+     "w": "the",
+     "start": 60.512,
+     "end": 60.732
+    },
+    {
+     "w": "timer’s",
+     "start": 60.732,
+     "end": 61.211
+    },
+    {
+     "w": "for",
+     "start": 61.271,
+     "end": 62.747
+    }
+   ]
+  }
+ ]
+}

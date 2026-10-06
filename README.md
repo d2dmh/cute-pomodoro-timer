@@ -64,3 +64,7 @@ npm run dev
 ## 许可
 
 MIT
+
+## 宣传 MV
+
+`mv/` 目录里是一支用代码生成的原创 MV《Little Tomato》：歌曲合成、音频分析、逐词歌词对齐和 three.js 渲染全流程，详见 [mv/README.md](mv/README.md)。

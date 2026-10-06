@@ -1,0 +1,19 @@
+{
+  "_comment": "Line-level lyrics with rough start times typed by ear (±1 s). align.py turns this into word-level timings.",
+  "lines": [
+    { "t": 8.4,  "text": "Twenty-five minutes on the clock" },
+    { "t": 12.2, "text": "Phone face down, let the noises stop" },
+    { "t": 15.7, "text": "One small tomato on my desk" },
+    { "t": 20.5, "text": "Do the next thing, forget the rest" },
+    { "t": 24.3, "text": "Tick tock, little tomato" },
+    { "t": 27.6, "text": "Count me down and let me go" },
+    { "t": 32.4, "text": "Work, then rest, then work some more" },
+    { "t": 35.8, "text": "That’s what the timer’s for" },
+    { "t": 40.2, "text": "Ring ring, take a break" },
+    { "t": 44.5, "text": "Stretch your arms, there’s tea to make" },
+    { "t": 48.3, "text": "Tick tock, little tomato" },
+    { "t": 51.7, "text": "Count me down and let me go" },
+    { "t": 56.4, "text": "Work, then rest, then work some more" },
+    { "t": 60.3, "text": "That’s what the timer’s for" }
+  ]
+}

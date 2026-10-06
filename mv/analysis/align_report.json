@@ -1,0 +1,50 @@
+{
+ "words": 83,
+ "start_err_ms": {
+  "median": 12.0,
+  "p95": 124.6,
+  "max": 332.0,
+  "within_50ms": 60
+ },
+ "end_err_ms": {
+  "median": 37.0,
+  "p95": 286.3
+ },
+ "flags": [
+  {
+   "line": 0,
+   "word": "minutes",
+   "dtw": 8.71,
+   "onset": 8.82,
+   "reason": "DTW and onset disagree by more than 90 ms"
+  },
+  {
+   "line": 6,
+   "word": "rest,",
+   "dtw": 32.726,
+   "onset": 32.875,
+   "reason": "DTW and onset disagree by more than 90 ms"
+  },
+  {
+   "line": 9,
+   "word": "there’s",
+   "dtw": 45.207,
+   "onset": 45.107,
+   "reason": "DTW and onset disagree by more than 90 ms"
+  },
+  {
+   "line": 9,
+   "word": "make",
+   "dtw": 46.105,
+   "onset": 46.205,
+   "reason": "DTW and onset disagree by more than 90 ms"
+  },
+  {
+   "line": 12,
+   "word": "rest,",
+   "dtw": 56.721,
+   "onset": 56.871,
+   "reason": "DTW and onset disagree by more than 90 ms"
+  }
+ ]
+}
