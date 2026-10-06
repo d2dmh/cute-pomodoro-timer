@@ -264,6 +264,7 @@ export function drawWords(c: C2D, words: Word[], t: number, x: number, y: number
   c.save();
   c.font = s.font;
   c.textBaseline = 'alphabetic';
+  c.textAlign = 'left'; // the layout below does its own alignment
   (c as unknown as { letterSpacing: string }).letterSpacing = `${s.tracking ?? 0}px`;
   const space = c.measureText(' ').width;
   const widths = words.map((w) => c.measureText(w.w).width);
